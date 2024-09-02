@@ -53,7 +53,6 @@ function actualizarGrafico() {
     ctx.fillRect(0, canvas.height - probabilidad * 2, canvas.width, probabilidad * 2);
 }
 
-// Event Listener para el botón de simulación
 document.getElementById('simular-btn').addEventListener('click', () => {
     realizarSimulaciones(1);
 });
