@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Dados y Escaleras</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SIMULADOR DE DADOS Y ESCALERAS</h1>
+        <button id="simular-btn">Iniciar simulacion:</button>
+        <div class="resultados">
+            <div id="dado1" class="dado"></div>
+            <div id="dado2" class="dado"></div>
+            <div id="dado3" class="dado"></div>
+            <div id="dado4" class="dado"></div>
+            <div id="dado5" class="dado"></div>
+        </div>
+        <div>
+            <p>Simulaciones realizadas: <span id="contador-simulaciones">0</span></p>
+            <p>Probabilidad de obtener una escalera: <span id="probabilidad-escalera">0.00%</span></p>
+        </div>
+        <canvas id="grafico-probabilidad" width="400" height="200"></canvas>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
